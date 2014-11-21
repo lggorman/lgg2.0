@@ -1,0 +1,164 @@
+$primary-color: #238E68;
+$header-font: 'Montserrat', sans-serif;
+$row-width: 100%;
+
+body{ font-family: $header-font; }
+
+nav {
+	background-color: $primary-color;
+	height:75px; 
+	font-family: $header-font; 
+	position:fixed;
+	width:100%;
+	box-shadow: 1.5px 1.5px 1.5px 1px #666;
+	z-index:50;
+
+	h1 { 
+		font-family: $header-font; 
+		font-weight:700;
+		font-size:30px;
+		margin:0;
+		float:left;
+		padding-top:15px;
+		padding-left:25px;
+
+		span{
+			color:#fff;
+		}
+
+		}
+
+	ul{
+		float:right;
+		
+		li{
+			float:left;
+			padding:23px 25px;
+			font-weight:bold;
+			font-size:20px;
+
+			a{color:#000;}
+		}
+
+
+		li:hover {
+
+			a{color:#fff;}
+		}
+	}
+}
+
+li { list-style: none; }
+
+h2 {		
+	font-weight:bold;
+	font-size:50px;
+
+		span{
+			color: $primary-color;
+		}
+		}
+
+.top-panel {
+	background:url(img/test.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height:100vh;
+
+  	.pic-box {
+  		background-color:#000;
+  		
+  		div:first-of-type{
+
+  		}
+  	}
+}
+
+.about {
+	height:100vh;
+	padding-top:24vh;
+
+
+	.about-pic{
+		height:43vh;
+		width:43vh;
+		background-image:url(img/owl.jpg);
+		background-size:43vh 43vh;
+		border-radius: 23vh;
+		z-index:5;
+	}
+
+	.about-text{
+		font-family: $header-font;
+		font-size:1.1em;
+		line-height:1.2em;
+		
+	}
+
+}
+
+.work{
+
+	font-family: $header-font;
+	
+
+	h2{ margin-bottom:30px; }
+	
+	p{
+		font-size:1.1em;
+		line-height:1.2em;
+	}
+
+	h3{
+		
+		font-weight:bold;
+	}
+
+	div{
+		margin-bottom:25px;
+	}
+}
+
+
+.button {
+	background-color:$primary-color;
+	font-family:$header-font;
+	font-weight:bold;
+}
+
+.contact{
+
+
+	h2{
+		margin-bottom:30px;
+		margin-top:17vh;
+	}
+
+	label{
+		font-weight:bold;
+		color:#000;
+		font-size:1.05em;
+	}
+
+	input, textarea{
+		border:3px solid #000;
+	}
+
+	textarea{
+		height:150px;
+	}
+
+	.button{
+		border:none;
+		margin-bottom:20vh;
+	}
+}
+
+footer{
+	background-color:#000;
+	width:100%;
+	height:200px;
+	clear:both;
+}

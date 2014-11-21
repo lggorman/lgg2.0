@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+	.about { 
+		height:auto;
+		padding-bottom: 50px;
+
+		.about-pic {
+			margin: 0 auto;
+			width:45vh;
+			height:45vh;
+			margin-bottom:30px;
+		}
+	}
+
+	nav ul li {
+		padding:23px 18px;
+	}
+}

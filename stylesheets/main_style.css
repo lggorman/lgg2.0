@@ -1,0 +1,153 @@
+/* line 5, ../scss/main_style.scss */
+nav {
+  background-color: #238E68;
+  height: 75px;
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
+  width: 100%;
+  box-shadow: 1.5px 1.5px 1.5px 1px #666;
+  z-index: 50;
+}
+/* line 14, ../scss/main_style.scss */
+nav h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin: 0;
+  float: left;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+/* line 23, ../scss/main_style.scss */
+nav h1 span {
+  color: #fff;
+}
+/* line 29, ../scss/main_style.scss */
+nav ul {
+  float: right;
+}
+/* line 32, ../scss/main_style.scss */
+nav ul li {
+  float: left;
+  padding: 25px;
+  font-weight: bold;
+}
+/* line 37, ../scss/main_style.scss */
+nav ul li a {
+  color: #000;
+}
+/* line 43, ../scss/main_style.scss */
+nav ul li:hover a {
+  color: #fff;
+}
+
+/* line 48, ../scss/main_style.scss */
+li {
+  list-style: none;
+}
+
+/* line 50, ../scss/main_style.scss */
+h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+/* line 54, ../scss/main_style.scss */
+h2 span {
+  color: #238E68;
+}
+
+/* line 59, ../scss/main_style.scss */
+.top-panel {
+  background: url(../img/test.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+/* line 67, ../scss/main_style.scss */
+.top-panel .pic-box {
+  background-color: #000;
+}
+
+/* line 76, ../scss/main_style.scss */
+.about {
+  height: 100vh;
+  padding-top: 24vh;
+}
+/* line 81, ../scss/main_style.scss */
+.about .about-pic {
+  height: 43vh;
+  width: 43vh;
+  background-image: url(../img/owl.jpg);
+  background-size: 43vh 43vh;
+  border-radius: 23vh;
+  z-index: 5;
+}
+/* line 90, ../scss/main_style.scss */
+.about .about-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+
+/* line 99, ../scss/main_style.scss */
+.work {
+  font-family: "Montserrat", sans-serif;
+}
+/* line 104, ../scss/main_style.scss */
+.work h2 {
+  margin-bottom: 30px;
+}
+/* line 106, ../scss/main_style.scss */
+.work p {
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+/* line 111, ../scss/main_style.scss */
+.work h3 {
+  font-weight: bold;
+}
+/* line 116, ../scss/main_style.scss */
+.work div {
+  margin-bottom: 25px;
+}
+
+/* line 122, ../scss/main_style.scss */
+.button {
+  background-color: #238E68;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+/* line 131, ../scss/main_style.scss */
+.contact h2 {
+  margin-bottom: 30px;
+  margin-top: 17vh;
+}
+/* line 136, ../scss/main_style.scss */
+.contact label {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.05em;
+}
+/* line 142, ../scss/main_style.scss */
+.contact input, .contact textarea {
+  border: 3px solid #000;
+}
+/* line 146, ../scss/main_style.scss */
+.contact textarea {
+  height: 150px;
+}
+/* line 150, ../scss/main_style.scss */
+.contact .button {
+  border: none;
+  margin-bottom: 15vh;
+}
+
+/* line 156, ../scss/main_style.scss */
+footer {
+  background-color: #000;
+  width: 100%;
+  height: 200px;
+}
