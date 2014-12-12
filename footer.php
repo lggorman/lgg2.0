@@ -1,4 +1,12 @@
  <footer>
+ 	<div class="row">
+	 	<p>© Linda Gorman 2014</p>
+	 	<ul>
+	 		<li><a>about</a></li>
+	 		<li><a>work</a></li>
+	 		<li><a>contact</a></li>
+	 	</ul>
+	 </div>
 
   </footer>
     
